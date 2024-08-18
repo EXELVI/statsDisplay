@@ -101,6 +101,7 @@ if response then
 
 
 			monitor.setCursorPos(1, 10);
+			monitor.setTextColor(colors.white);
 
 			if (timee > 10) then
 				timee = 0;
